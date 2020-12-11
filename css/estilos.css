@@ -1,0 +1,114 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.navbar{
+   padding: 20px;
+}
+nav .nav-link {
+   color: #282828;
+}
+nav .active {
+   border: 1px solid #E20000;
+   font-size: 15px;
+   border-radius: 20px;
+   padding: 5px 20px;
+   font-weight: 100;
+}
+#contacto {
+   background-image: url(../images/fondo-contacto.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+h1{
+   color: #e20000;
+}
+.h1, h1 {
+   font-size: 2.5rem;
+}
+p{
+   color: #6a6a6a;
+   font-size: 14px;
+}
+textarea {
+   resize: none;
+}
+.btn{
+   background-color: #FFFFFF;
+   color: #370A6D;
+   font-weight: 500;
+   font-size: 16px;
+   border-radius: 20px;
+   padding: 5px 35px
+}
+.btn:hover {
+   color: #FFFFFF;
+   background-color: #370A6D;
+}
+.btn-rojo {
+   background-color: #E20000;
+   color: white;
+   font-size: 15px;
+   border-radius: 20px;
+   padding: 5px 20px;
+   font-weight: 100;
+}
+input, textarea {
+   border-radius: 15px !important;
+   border: 0px !important;
+}
+textarea{
+   height: 150px !important;
+}
+footer, footer a {
+   color: white;
+   font-weight: 100px;
+   font-size: 14px;
+}
+footer .fa-github {
+   font-size: 30px;
+   color: white;
+}
+footer .fa-linkedin-in{
+   color: #ff4a49;
+   background-color: white;
+   font-size: 20px;
+   border: 0px;
+   height: 32px;
+   width: 32px;
+   text-align: center;
+   padding: 8px 0 0 0;
+   border-radius: 80px;
+   margin: 8px 8px;
+}
+footer .fa-whatsapp {
+   color: white;
+   background-color: #370A6D;
+   font-size: 30px;
+   padding: 10px 19px;
+   border-radius: 10px 10px 0 0;
+   height: 65px;
+   width: 65px;
+}
+#contacto main {
+   height: 83vh;
+}
+#proyectos {
+   background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.color-gradiente {
+   background-image: linear-gradient(to right, #8c0000, #fe0000);
+}
+#inicio{
+   background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 8.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#idiomas{
+   background-color: tomato;
+}
+#idiomas .fas{
+   font-size: 80px;
+   color: white;
+}

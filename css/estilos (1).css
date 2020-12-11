@@ -1,0 +1,32 @@
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e2000e;
+}
+h1{
+    color: #e2000e;
+}
+p{
+    color: #6a6a6a;
+}
+.nav-link{
+    color: #e2000e;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+footer .fa-linkedin-in{
+    color: #e2000e ;
+    background-color: white;
+    font-size: 30px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
